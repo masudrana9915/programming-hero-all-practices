@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes rotation{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .animation{
+            width: 1300px;
+            height: 770px;
+            border: 2px solid red;
+            
+        }
+        .sun{
+            height: 250px;
+            width: 250px;
+            padding-left: 500px;
+            padding-top: 200px;
+        }
+        .earth{
+            height: 200px;
+            width: 200px;
+            animation: rotation 2s linear infinite;
+            transition: ease-in-out width.30s ease-in-out;
+            animation-play-state: running;
+            position: relative;
+        }
+        .sun:focus{
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+         <img class="sun" src="image/sun.png" alt="">
+         <img class="earth" src="image/earth.png" alt="">
+    </div>
+    
+</body>
+</html>

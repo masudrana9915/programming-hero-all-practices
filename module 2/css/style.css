@@ -1,0 +1,24 @@
+h1{
+   
+   
+    height: 400px;
+    background-image: url(../image/nature.jpg);
+}
+p{   
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(0, 255, 34);
+   
+    
+}
+h2{
+   color: brown;
+   background-color: blue;
+   text-align: center;
+   
+}
+.blog{
+    box-shadow: 30px grey;
+}

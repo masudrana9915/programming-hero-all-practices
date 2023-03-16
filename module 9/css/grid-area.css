@@ -1,0 +1,48 @@
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.main{
+    grid-area: main;
+}
+.aside{
+    grid-area: aside;
+}
+.add{
+    grid-area: ad;
+}
+.footer{
+    grid-area: footer;
+}
+.header, .ad, .aside, .footer, .main, .nav{
+    background-color: blueviolet;
+}
+/* grid layout related style */
+@media screen and (max-width:576px){
+.grid-container{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav" 
+    "main"
+    "aside"
+    "ad"
+    "footer"
+    ;
+ }
+}
+@media screen and (min-width:577px) and (max-width:992px){
+     .grid-container{
+        display: flex;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: 
+       "header"
+        "nav" 
+        "main"
+       "ad"
+      "footer"
+    ;
+    }
+}

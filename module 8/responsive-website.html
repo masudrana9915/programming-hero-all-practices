@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>
+        body{
+            border: 1px solid rebeccapurple;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 10vw;
+        }
+        .tiger img{
+            width: 100%;
+        }
+        .container-two{
+            display: flex;
+        }
+        .container-two .split{
+            width: 50%;
+        }
+        .split img{
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid salmon;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .food img{
+            width: 100%;
+        }
+       
+        @media screen and (max-width: 576px) {
+        .container-two{
+            flex-direction: column-reverse;
+        }
+        .container-two .split{
+            width: 100%;
+        }
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+       
+        }
+    
+         @media screen and (min-width: 577px) and (max-width: 700px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+         }
+        
+      </style>
+</head>
+<body>
+    <section>
+        <h1>This is Bangladesh</h1>
+    </section>
+    <section class="tiger">
+        <h2>Tiger Jinda Hay</h2>
+        <img src="image/tiger.jpg" alt="">
+    </section>
+     <h2>two pictures</h2>
+     <div class="container-two">
+         <div class="split">
+           <img src="image/food.jpg" alt="" srcset="">
+         </div>
+         <div class="split">
+           <img src="image/tiger2.jpg" alt="" srcset="">
+         </div>
+
+     </div>
+    <section>
+        <h2>multi column</h2>
+    </div> <div class="container">
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-1</h2>
+            <h4>price : 500 tk</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum veniam, obcaecati accusamus quam nesciunt alias quae perspiciatis natus vero id quaerat saepe corporis tempora quas omnis modi ut perferendis ipsum!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-2</h2>
+            <h4>price : 500 tk</h4>
+            <p>Incidunt ad minus, accusantium quidem optio possimus iure rerum enim id odio consequatur praesentium nesciunt modi esse perspiciatis nisi saepe illum, corporis molestias a. Autem numquam illo velit error assumenda.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-3</h2>
+            <h4>price : 500 tk</h4>
+            <p>Optio iusto rerum accusantium quam tempore id, delectus error explicabo voluptate minus, cupiditate, dolor libero quibusdam. Esse tenetur provident deserunt, dolorem eius, dolores incidunt officia laudantium hic, illo nobis voluptates!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-4</h2>
+            <h4>price : 500 tk</h4>
+            <p>Quae assumenda sed quasi alias, iste amet. Harum doloremque voluptas hic at placeat debitis nam id, repellat vel, mollitia recusandae nihil impedit quo ex? Delectus ab quibusdam voluptatibus ullam cupiditate!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-5</h2>
+            <h4>price : 500 tk</h4>
+            <p>Soluta quisquam perferendis consequatur. Corporis aperiam tempore consequatur similique recusandae? Est obcaecati corporis sapiente voluptas suscipit sit eos, fugiat odio ab nihil beatae veniam rerum aliquam officiis sequi doloribus sed.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-6</h2>
+            <h4>price : 500 tk</h4>
+            <p>Unde, laudantium. Debitis adipisci quam magnam, culpa iure veritatis molestias reiciendis expedita doloribus ex, sed libero! Ab quos facilis deleniti quo tempora consequatur, saepe laboriosam non voluptates velit libero iure.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-7</h2>
+            <h4>price : 500 tk</h4>
+            <p>Quibusdam possimus voluptas cupiditate error. At officia autem temporibus perspiciatis a impedit voluptas dicta amet nostrum maiores ea, praesentium voluptatum ducimus quia molestiae ad, perferendis, commodi modi iure? Quia, incidunt.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-8</h2>
+            <h4>price : 500 tk</h4>
+            <p>Officiis et ipsa harum qui nisi dolore quia quo atque dolor aliquid numquam sed, corporis similique quam voluptatibus dignissimos commodi perferendis aliquam, illum recusandae beatae praesentium nobis alias doloribus! Nobis!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-9</h2>
+            <h4>price : 500 tk</h4>
+            <p>Repudiandae autem voluptatem ea a fugit quibusdam fuga numquam perferendis, debitis, omnis quae cupiditate dignissimos aspernatur voluptate praesentium dolorum. Quis commodi error quaerat nobis porro neque veniam magnam? Enim, consectetur.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-10</h2>
+            <h4>price : 500 tk</h4>
+            <p>Illo, ea. Exercitationem, esse incidunt? Expedita magni accusamus commodi ratione saepe culpa sequi eius, esse porro fugiat perspiciatis provident ex quod quo iste obcaecati nulla nisi pariatur excepturi illum. Iste.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-11</h2>
+            <h4>price : 500 tk</h4>
+            <p>Iste aliquid, itaque odit totam incidunt, quidem doloremque eveniet temporibus nihil eum at consectetur a, voluptas pariatur autem sed nostrum excepturi tenetur asperiores harum cupiditate deserunt nisi veritatis. Reiciendis, vel.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="image/food.jpg" alt="">
+            <h2>item-12</h2>
+            <h4>price : 500 tk</h4>
+            <p>Illo, mollitia quasi reiciendis qui deserunt voluptate aut sapiente, alias cumque vel nihil fuga est? Reprehenderit, eius, quis adipisci dignissimos nesciunt itaque aliquam voluptatum aliquid impedit accusamus, veritatis dolore maxime.</p>
+            <button>order now</button>
+        </div>
+    </div>
+    </section> 
+</body>
+</html>

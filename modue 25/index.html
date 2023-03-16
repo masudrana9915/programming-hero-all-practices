@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        li{
+            color: red;
+        }
+        #place{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>wlcome to my dom</h1>
+    </header>
+    <main>
+        <h2>It's my first dom</h2>
+        <ul>
+            <li>Rahat</li>
+            <li>Safayat</li>
+            <li>Mosta</li>
+        </ul>
+    </main>
+
+    <section>
+        <h1 id="place">Dhaka is our capital</h1>
+    </section>
+    <script src="js/dom.js"></script>
+    <script>
+       const liCollection = document.getElementsByTagName('li');
+
+       for (const li of liCollection){
+        console.log(li.innerText);
+       }
+
+       const allHeadings = document.getElementsByTagName('h1');
+       for (const h1 of allHeadings){
+        console.log(h1.innerText);
+       }
+
+    </script>
+    
+</body>
+</html>

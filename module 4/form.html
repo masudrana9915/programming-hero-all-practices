@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form design</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li>
+                    <a href="form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="semantic.html">Semantic</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    <h1>welcome to DIU versity</h1>
+    <form>
+        <label for="name">Your name
+           <input id="name" type="text" placeholder="Your name"> 
+        </label>
+        <label for="name">Your father's name
+           <input id="name" type="text" placeholder="Your father's name "> 
+        </label>
+        <label for="name">Your  email
+           <input id="email" type="email" placeholder="Your  email"> 
+        </label>
+        <label for="name">Your  password
+           <input id="password" type="password" placeholder="Your password"> 
+        </label>
+        <fieldset>
+            <legend>select one department</legend>
+            <label for="CSE">
+              <input type="radio" name="department" id="CSE">CSE
+            </label>
+            <label for="EEE">
+              <input type="radio" name="department" id="EEE">EEE
+            </label>
+            <label for="Civil">
+              <input type="radio" name="department" id="Civil">Civil
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>select one campus</legend>
+            <label for="Green road">
+               <input type="checkbox" name="campus" id="Green road">Green road
+            </label>
+            <label for="Badda">
+               <input type="checkbox" name="campus" id="Badda">Badda
+            </label>
+            <label for="Bonani">
+               <input type="checkbox" name="campus" id="Bonani">Bonani
+            </label>
+        </fieldset>
+       <input type="reset" value="Reset">
+       <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
